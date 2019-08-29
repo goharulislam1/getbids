@@ -91,7 +91,7 @@ div.center{text-align:center;}
 .navbar .navbar-right li:first-child ul.dropdown-menu li{display:block; background:transparent url("../images/nav_icon.png") left center no-repeat; background-size:15%; padding-left:50px; margin:15px;}
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{margin:0;}
 
-.login form{padding:100px 0 0;}
+.login form{padding:40px 0 0;}
 .login form p{font-weight:700;}
 .login form a{font-weight:700;}
 .login input.form-control{height:55px; padding:0 12px;}
