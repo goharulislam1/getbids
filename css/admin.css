@@ -1,0 +1,67 @@
+.navbar .navbar-right > li:first-child > .dropdown-menu{    padding: 3px;}
+.navbar .navbar-right li:first-child ul.dropdown-menu li{    padding-left: 0px;    margin: 0px;}
+.admin .navbar{min-height: auto;}
+ul.addr {padding-bottom:20px;    display: block;}
+ul.addr li .fa{color:#02C686}
+ul.addr li{color:#686868;font-size: 14px;}
+.tabs_users{    margin-bottom: 45px;}
+.tabs_users .nav-tabs>li>a:hover{border-color: transparent;background-color: transparent;border:0px;color:#000;}
+.tabs_users .nav-tabs>li.active>a{border-color: transparent;background-color: transparent;border:0px;color:#000;}
+.tabs_users .nav-tabs li a.active{color:#000;}
+.tabs_users .nav>li>a:focus{border-color: transparent;background-color: transparent;border:0px;color:#000;}
+.tabs_users .nav-tabs>li>a { margin-right: 0px; line-height: 0; border: 0px solid transparent; border-radius: 0;color:#707070;font-weight:600; }
+.tabs_users ul{}
+.tabs_users ul li{}
+.tabs_users ul li a{    font-size: 22px;}
+#myTabContent .panel p{margin-bottom: 10px;color:#000;}
+.buttns{padding-top:60px;}
+a.mng_btn { background: #75cb00; color: #fff; min-width: 110px; padding: 9px 0px; }
+a.bg_grey{background: #f1fae5; color: #75cb00;}
+.admin  .panel{    padding: 25px 30px;}
+.price strong{font-weight:bold;}
+.admin .panel p{margin-bottom: 10px;color:#000;}
+.in_bidding { background-color: #FF8246; }
+.in_progress { background-color: #5381EF; }
+.view_details { background-color: #75CB00; }
+.cancelled { background-color: #FF4949; }
+table thead tr td{font-weight:bold;}
+.per_reprt.sales1 .btn1{    margin-top: 10px;}
+.graph_area {  padding: 35px 14px 20px; }
+.report_graph a.btn{background-color: #5381EF; color: #fff; width: 100%;border-radius:0px; border-bottom-left-radius: 17px; border-bottom-right-radius: 17px; padding: 12px 0px;}
+.report_graph{border: 1px solid #E5E5E5;border-radius: 17px;margin-bottom: 10px;}
+.graph_area .title{font-weight:bold;font-size:18px;}
+.graph_area .title strong{font-size:40px;font-weight:bold;}
+.graph_area .title p{font-weight:normal;font-size:15px;}
+.chart3 .chart{padding: 60px 0px;}
+.chart3 .chart span{font-size:25px;color:#00CF7B}
+.chart3 .chart p{}
+.chart2 a.btn{background-color: #FF4949;}
+.chart3 a.btn{background-color: #00CF7B;}
+.chart4 a.btn{background-color: #6767FF;}
+.chart_cont{padding:35px 0px;}
+a.canvasjs-chart-credit	{ display: none; }
+/*MediaQuery*/
+@media(min-width:767px) and (max-width:5000px){
+
+}
+@media(max-width:1280px){
+
+}
+@media(max-width:1023px){
+
+}
+@media(max-width:991px){
+
+}
+@media(max-width:767px){
+
+}
+@media(max-width:577px){
+
+}
+@media(max-width:375px){
+
+}
+@media(max-width:320px){
+
+}

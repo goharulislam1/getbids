@@ -247,6 +247,9 @@ body.acc_menu:before{transition:all 0.3s ease-in-out; -webkit-transition:all 0.3
 @media(max-width:577px){
 
 }
+@media(max-width:480px){
+	.chart1,.chart2,.chart3,.chart4{width:100%;}
+}
 @media(max-width:375px){
 
 }

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="robots" content="noindex,nofollow,noarchive,nocache">
+        <meta name="googlebot" content="noindex,nofollow,noarchive,nocache,nosnippet">
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="developer" content="Gohar ul Islam">
+        <meta name="email" content="goharulislam@gmail.com">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/admin.css">
+        <title>GetBids</title>
+        <link rel="icon" type="image/png" href="../images/favicon.png"/>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="admin">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="../images/logo.png" alt="logo"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+					  <li class="active"><a href="#">Users & Registration Applications</a></li>
+					  <li><a href="#">Performance Reports</a></li>
+				    </ul>
+                    <ul class="nav navbar-nav navbar-right">                       
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img alt="Image" src="../images/profile.png"> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+                                <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <div class="clearfix"></div>
+        <section class="sales1 per_reprt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2>Performance Reports</h2>
+                    </div>
+                    <!--col-->
+                    <div class="col-md-3 pull-right">
+						<button class="btn1 completed">Generate MIS Report</button>
+                    </div>
+                    <!--col-->
+                    <div class="clearfix"></div>
+					
+					<div class="chart_cont">
+					<div class="col-md-3 col-sm-6 col-xs-6 chart1">
+						<div class="report_graph ">
+							<div class="graph_area ">
+								<div class="title text-center">NEW SUBSCRIBERS<br/><strong>500</strong></div>
+								<div class="chart">
+									<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+								</div>
+							</div>
+							<a href="#" class="btn">View Details</a>
+						</div>
+					</div>
+                    <!--col-->
+					<div class="col-md-3 col-sm-6 col-xs-6 chart2">
+						<div class="report_graph ">
+							<div class="graph_area ">
+								<div class="title text-center">TOTAL CONTRACTS<br/><strong>300</strong></div>
+								<div class="chart">
+									<div id="chartContainer2" style="height: 300px; width: 100%;"></div>
+								</div>
+							</div>
+							<a href="#" class="btn">View Details</a>
+						</div>
+					</div>
+                    <!--col-->
+					<div class="col-md-3 col-sm-6 col-xs-6 chart3">
+						<div class="report_graph ">
+							<div class="graph_area">
+								<div class="title text-center">CONTRACTS</div>
+								<div class="chart text-center">
+									<span>210</span>
+									<p>Completed</p>
+									<span>80</span>
+									<p>In Progress</p>
+									<span>10</span>
+									<p>Canceled</p>
+								</div>
+							</div>
+							<a href="#" class="btn">View Details</a>
+						</div>
+					</div>
+                    <!--col-->
+					<div class="col-md-3 col-sm-6 col-xs-6 chart4">
+						<div class="report_graph ">
+							<div class="graph_area">
+								<div class="title text-center">SALES SUMMARY<br/><p>Credits bought over time</p></div>
+								<div class="chart">
+									<div id="chartContainer3" style="height: 300px; width: 100%;"></div>
+								</div>
+							</div>
+							<a href="#" class="btn">View Details</a>
+						</div>
+					</div>
+                    <!--col-->
+                </div>
+                </div>
+                <!--row-->
+            </div>
+            <!--container-->
+        </section>
+        <div class="clearfix"></div>
+        <a class="gototop">
+        <i class="fa fa-chevron-up"></i>
+        </a><!--gototop-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                    <!--col-->
+                </div>
+                <!--row-->
+            </div>
+            <!--container-->
+        </footer>
+        <!--JS-->
+        <script src="../js/jquery-3.1.1.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/custom.js"></script>
+		<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+<script>
+window.onload = function () {
+/*Chart Start*/
+var chart1 = {
+	animationEnabled: true,  
+	
+	axisX: {
+		valueFormatString: "MMM"
+	},
+	axisY: {
+		includeZero: false
+	},
+	data: [{
+		lineColor: "#5381EF",
+		yValueFormatString: "#,###",
+		xValueFormatString: "MMMM",
+		type: "spline",
+		dataPoints: [
+			{ x: new Date(2019, 0), y: 100 },
+			{ x: new Date(2019, 1), y: 150 },
+			{ x: new Date(2019, 2), y: 300 },
+			{ x: new Date(2019, 3), y: 350 },
+			{ x: new Date(2019, 4), y: 500 }
+		]
+	}]
+};
+$("#chartContainer").CanvasJSChart(chart1);
+/*Chart end*/
+/*Chart Start*/
+var chart2 = {
+	animationEnabled: true,  
+	
+	axisX: {
+		valueFormatString: "MMM"
+	},
+	axisY: {
+		includeZero: false
+	},
+	data: [{
+		lineColor: "#FF4949",
+		yValueFormatString: "#,###",
+		xValueFormatString: "MMMM",
+		type: "spline",
+		dataPoints: [
+			{ x: new Date(2019, 0), y: 50 },
+			{ x: new Date(2019, 1), y: 75 },
+			{ x: new Date(2019, 2), y: 300 },
+			{ x: new Date(2019, 3), y: 250 },
+			{ x: new Date(2019, 4), y: 400 }
+		]
+	}]
+};
+$("#chartContainer2").CanvasJSChart(chart2);
+/*Chart end*/
+/*Chart Start*/
+var chart3 = {
+	animationEnabled: true,  
+	
+	axisX: {
+		valueFormatString: "MMM"
+	},
+	axisY: {
+		includeZero: false
+	},
+	data: [{
+		lineColor: "#6767FF",
+		yValueFormatString: "#,###",
+		xValueFormatString: "MMMM",
+		type: "spline",
+		dataPoints: [
+			{ x: new Date(2019, 0), y: 100 },
+			{ x: new Date(2019, 1), y: 150 },
+			{ x: new Date(2019, 2), y: 50 },
+			{ x: new Date(2019, 3), y: 250 },
+			{ x: new Date(2019, 4), y: 200 }
+		]
+	}]
+};
+$("#chartContainer3").CanvasJSChart(chart3);
+/*Chart end*/
+}
+</script>
+</body>
+</html>
